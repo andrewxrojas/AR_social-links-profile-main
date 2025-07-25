@@ -21,7 +21,7 @@
 
 ### Links
 
-- Solution URL: [AR_blog-preview-card-main](https://github.com/andrewxrojas/AR_social-links-profile-main)
+- Solution URL: [AR_social-links-profile-main](https://github.com/andrewxrojas/AR_social-links-profile-main)
 - Live Site URL: [Live site](https://andrewxrojas.github.io/AR_social-links-profile-main/)
 
 ## My process
