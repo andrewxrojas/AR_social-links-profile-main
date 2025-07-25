@@ -15,16 +15,14 @@
 
 ### Screenshot
 
-Desktop View ![Desktop View](./assets/images/DesktopView.png)
-
-Mobile View 
-![Mobile View](./assets/images/MobileView.png) 
+![Desktop View](./assets/images/DesktopView.png) 
+![Mobile View](./assets/images/MobileView.png)
 
 
 ### Links
 
-- Solution URL: [AR_blog-preview-card-main](https://github.com/andrewxrojas/AR_blog-preview-card-main)
-- Live Site URL: [Live site](https://andrewxrojas.github.io/AR_blog-preview-card-main/)
+- Solution URL: [AR_blog-preview-card-main](https://github.com/andrewxrojas/AR_social-links-profile-main)
+- Live Site URL: [Live site](https://andrewxrojas.github.io/AR_social-links-profile-main/)
 
 ## My process
 
@@ -35,13 +33,13 @@ Mobile View
 
 ### What I learned
 
-This project served as a crash course for me as I have not used HTML or CSS for a year and I would like to improve my skill set as a designer. I learned from my peers to contain my body of code with a main element after the html element followed by the display: grid; place-items: center; in order to perfectly center the card one the page.
+This project taught me the importance of building a strong foundation before adding any cascade styles to it. I learned how to use and format button tags, which has served as a better option than formatting li and ul tags. Additionally, I knew that it is better to code for the mobile style first and use media queries to scale the size of containers and format type, and other elements based on screen size. I'm still learning about media queries, but I'm gaining a better understanding of them with each new code challenge.
 
 ![What I Learned](./assets/images/WhatILearned.png)
 
 ### Continued development
 
-For future projects I would like to continue learning and developing my css and responsive layout design skill set. Eventually I'd want to add Java Script to my arsenal.
+I want to continue learning about CSS styles, media query, and responsive layouts as I feel that these are important skills to learn in order to make a user friendly design.
 
 ## Author
 
@@ -50,4 +48,4 @@ For future projects I would like to continue learning and developing my css and 
 
 ## Acknowledgments
 
-I'd like to thank Frontend Mentor for providing these type of challenges. These challenges are very helpful and I'm very grateful for these opportunities. 
+I'd like to thank Frontend Mentor for providing these type of challenges. These challenges are very helpful and I'm very grateful for these opportunities.
