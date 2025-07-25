@@ -15,8 +15,9 @@
 
 ### Screenshot
 
-Desktop View ![Desktop View](./assets/images/DesktopView.png) 
-![Mobile View](./assets/images/MobileView.png) Mobile View
+Desktop View ![Desktop View](./assets/images/DesktopView.png)
+
+Mobile View ![Mobile View](./assets/images/MobileView.png) Mobile View
 
 
 ### Links
