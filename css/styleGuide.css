@@ -1,0 +1,345 @@
+/* CSS Reset - This stays the same for all devices */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===========================================
+   MOBILE FIRST - BASE STYLES (375px+)
+   These are my foundation styles
+   =========================================== */
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    min-height: 100vh; /* Changed from max-height to min-height for better mobile */
+    display: grid;
+    place-items: center;
+    padding: 20px; /* Changed from padding-top for better mobile spacing */
+}
+
+.profileCard {
+    padding: 29px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3); /* Fixed your box-shadow syntax */
+    text-align: center;
+    width: 100%;
+    max-width: 327px; /* Prevent card from getting too wide on mobile */
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.Name {
+    font-weight: 400;
+    font-size: 27px;
+    margin-top: 15px; /* Added consistent spacing */
+}
+
+.Location {
+    font-weight: 500;
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.Bio {
+    font-weight: 300;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* Simplified your button selector */
+.socialMediaButton {
+    margin-top: 15px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 7px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    transition: all 0.3s ease; /* Added smooth transition */
+}
+
+.socialMediaButton:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(164, 214, 58, 0.4);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 20px; /* Added spacing */
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/* ===========================================
+   LARGE MOBILE / SMALL TABLET (480px+)
+   Small improvements for larger phones
+   =========================================== */
+
+@media (min-width: 480px) {
+    body {
+        padding: 30px;
+    }
+    
+    .profileCard {
+        max-width: 400px; /* Allow card to grow slightly */
+        padding: 35px;
+    }
+    
+    img {
+        width: 88px;
+        height: 88px;
+    }
+    
+    .Name {
+        font-size: 29px; /* Slight size increase */
+    }
+    
+    .socialMediaButton {
+        font-size: 17px;
+        padding: 16px 22px;
+    }
+}
+
+/* ===========================================
+   TABLET PORTRAIT (600px+)
+   More space to work with
+   =========================================== */
+
+@media (min-width: 600px) {
+    body {
+        padding: 40px;
+        font-size: 15px; /* Slightly larger base font */
+    }
+    
+    .profileCard {
+        max-width: 456px;
+        padding: 42px;
+        border-radius: 24px; /* Slightly more rounded corners */
+    }
+    
+    img {
+        width: 96px;
+        height: 96px;
+    }
+    
+    .Name {
+        font-size: 32px;
+        margin-top: 18px;
+    }
+    
+    .Location {
+        margin-top: 12px;
+        margin-bottom: 28px;
+    }
+    
+    .Bio {
+        margin-top: 18px;
+        margin-bottom: 35px;
+    }
+    
+    .socialMediaButton {
+        font-size: 18px;
+        padding: 18px 24px;
+        border-radius: 10px;
+        margin-top: 18px;
+    }
+    
+    .attribution {
+        font-size: 12px;
+        margin-top: 25px;
+    }
+}
+
+/* ===========================================
+   TABLET LANDSCAPE / SMALL DESKTOP (768px+)
+   Even more refinement
+   =========================================== */
+
+@media (min-width: 768px) {
+    body {
+        padding: 50px;
+        font-size: 16px;
+    }
+    
+    .profileCard {
+        max-width: 500px;
+        padding: 48px;
+    }
+    
+    img {
+        width: 104px;
+        height: 104px;
+    }
+    
+    .Name {
+        font-size: 34px;
+        margin-top: 20px;
+    }
+    
+    .Location {
+        margin-top: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .Bio {
+        margin-top: 20px;
+        margin-bottom: 38px;
+    }
+    
+    .socialMediaButton {
+        font-size: 19px;
+        padding: 20px 26px;
+        border-radius: 12px;
+        margin-top: 20px;
+    }
+    
+    /* Enhanced hover effect for larger screens */
+    .socialMediaButton:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 8px 20px rgba(164, 214, 58, 0.5);
+    }
+}
+
+/* ===========================================
+   DESKTOP (1024px+)
+   Full desktop experience
+   =========================================== */
+
+@media (min-width: 1024px) {
+    body {
+        padding: 60px;
+    }
+    
+    .profileCard {
+        max-width: 540px;
+        padding: 54px;
+        border-radius: 28px;
+    }
+    
+    img {
+        width: 112px;
+        height: 112px;
+    }
+    
+    .Name {
+        font-size: 36px;
+        margin-top: 22px;
+    }
+    
+    .Location {
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+    
+    .Bio {
+        margin-top: 22px;
+        margin-bottom: 40px;
+    }
+    
+    .socialMediaButton {
+        font-size: 20px;
+        padding: 22px 28px;
+        border-radius: 14px;
+        margin-top: 22px;
+    }
+    
+    .socialMediaButton:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 25px rgba(164, 214, 58, 0.6);
+    }
+    
+    .attribution {
+        font-size: 13px;
+        margin-top: 30px;
+    }
+}
+
+/* ===========================================
+   LARGE DESKTOP (1440px+)
+   Maximum size and refinement
+   =========================================== */
+
+@media (min-width: 1440px) {
+    body {
+        padding: 80px;
+    }
+    
+    .profileCard {
+        max-width: 600px; /* Final maximum size */
+        padding: 60px;
+        border-radius: 32px;
+    }
+    
+    img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .Name {
+        font-size: 38px;
+        margin-top: 24px;
+    }
+    
+    .Location {
+        margin-top: 18px;
+        margin-bottom: 35px;
+    }
+    
+    .Bio {
+        margin-top: 24px;
+        margin-bottom: 45px;
+    }
+    
+    .socialMediaButton {
+        font-size: 21px;
+        padding: 24px 30px;
+        border-radius: 16px;
+        margin-top: 24px;
+    }
+    
+    .socialMediaButton:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 30px rgba(164, 214, 58, 0.7);
+    }
+    
+    .attribution {
+        font-size: 14px;
+        margin-top: 35px;
+    }
+}
+
+/* ===========================================
+   EXTRA LARGE SCREENS (1920px+)
+   Prevent over-scaling
+   =========================================== */
+
+@media (min-width: 1920px) {
+    .profileCard {
+        max-width: 640px; /* Final limit to prevent card from becoming too large */
+    }
+}
